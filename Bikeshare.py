@@ -185,7 +185,7 @@ def birth_years(df):
 
 def display_data(df):
     
-    '''Displays five lines of data if the user specifies that they would like to.After displaying five lines, ask the user if they would like to see five more, continuing asking until they say stop.
+    '''Displays five records of data if the user specifies that they would like to.After displaying five lines, ask the user if they would like to see five more, continuing asking until they say stop.
     '''
 
     def is_valid(display):
