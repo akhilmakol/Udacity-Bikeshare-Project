@@ -80,7 +80,7 @@ def get_day():
     end_date = start_date + timedelta(days=1)
     return (str(start_date), str(end_date))
 
-def popular_month(df):
+def get_popular_month(df):
     
     '''Function to find and print the most popular month for start time.
     '''
@@ -185,7 +185,7 @@ def birth_years(df):
 
 def display_data(df):
     
-    '''Displays five lines of data if the user specifies that they would like to.After displaying five lines, ask the user if they would like to see five more, continuing asking until they say stop.
+    '''Displays five records of data if the user specifies that they would like to.After displaying five lines, ask the user if they would like to see five more, continuing asking until they say stop.
     '''
 
     def is_valid(display):
@@ -259,7 +259,7 @@ def statistics():
     if time_period == 'none':
         start_time = time.time()
         # What is the most popular month for start time?
-        popular_month(df_filtered)
+        get_popular_month(df_filtered)
         print("That took %s seconds." % (time.time() - start_time))
         print("\nCalculating the next statistic...")
 
