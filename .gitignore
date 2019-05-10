@@ -1,0 +1,7 @@
+# Avoid committing input files used in bikshare.py (as its quite huge in size):
+
+*.chicago.csv
+
+*.new_york_city.csv   
+
+*.washington.csv           
