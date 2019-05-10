@@ -40,3 +40,12 @@ Q7: What are the counts of each user type?
 Q8: What are the counts of gender?
 
 Q9: What are the earliest (i.e. oldest person), most recent (i.e. youngest person), and most popular birth years?
+
+Bibliography
+------------
+https://www.python.org/
+http://pandas.pydata.org/
+https://www.numpy.org/
+https://stackoverflow.com/
+
+
