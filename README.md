@@ -1,4 +1,6 @@
+
 Git Hub Project
+Author: Akhil Makol
 
 Python Script to Explore US Bikeshare Data
 -------------------------------------------
