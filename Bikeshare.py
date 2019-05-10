@@ -80,7 +80,7 @@ def get_day():
     end_date = start_date + timedelta(days=1)
     return (str(start_date), str(end_date))
 
-def popular_month(df):
+def get_popular_month(df):
     
     '''Function to find and print the most popular month for start time.
     '''
@@ -259,7 +259,7 @@ def statistics():
     if time_period == 'none':
         start_time = time.time()
         # What is the most popular month for start time?
-        popular_month(df_filtered)
+        get_popular_month(df_filtered)
         print("That took %s seconds." % (time.time() - start_time))
         print("\nCalculating the next statistic...")
 
