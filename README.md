@@ -22,11 +22,19 @@ Question and Scenario's in scope of this script
 -----------------------------------------------
 
 Q1: What is the most popular month for start time?
+
 Q2: What is the most popular day of week (Monday, Tuesday, etc.) for start time?
+
 Q3: What is the most popular hour of day for start time?
+
 Q4: What is the total trip duration and average trip duration?
+
 Q5: What is the most popular start station and most popular end station?
+
 Q6: What is the most popular trip?
+
 Q7: What are the counts of each user type?
+
 Q8: What are the counts of gender?
+
 Q9: What are the earliest (i.e. oldest person), most recent (i.e. youngest person), and most popular birth years?
